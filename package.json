@@ -4,7 +4,7 @@
     "private": true,
     "description": "Website of TTN Leipzig to communicate with the community and others",
     "scripts": {
-        "dev": "tailwindcss -i ./public/_style.css -o ./public/style.css --watch"
+        "dev": "tailwindcss -i ./public/css/_style.css -o ./public/css/style.css --watch"
     },
     "keywords": [
         "website",
