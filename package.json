@@ -1,0 +1,19 @@
+{
+    "name": "ttnleipzig-www",
+    "version": "1.0.0",
+    "private": true,
+    "description": "Website of TTN Leipzig to communicate with the community and others",
+    "scripts": {
+        "dev": "tailwindcss -i ./public/_style.css -o ./public/style.css --watch"
+    },
+    "keywords": [
+        "website",
+        "ttn"
+    ],
+    "author": "André Lademann <vergissberlin@googlemail.com>",
+    "packageManager": "pnpm@8.15.2",
+    "license": "AGPL-3.0-only",
+    "devDependencies": {
+        "tailwindcss": "^3.4.1"
+    }
+}
